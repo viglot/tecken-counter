@@ -1,9 +1,8 @@
-document.querySelector('textarea').addEventListener('change', function (event){
-    console.log(event.target.value);
-})
+document.querySelector('Textarea').addEventListener('input', function (event) {
 
-const textarea = ''
- 
+    let Text = event.target.value.toString();
 
-console.log(`${textarea.length} ${textarea.length}`);
+    document.getElementById('tecken').innerHTML = "tecken: " + Text.length
+    document.getElementById('ord').innerHTML = "ord: " + Text.match( /(\w+)/g ).length
 
+});

@@ -1,4 +1,21 @@
-*{
-    width: 250px;
-    height: 200px;
+body {
+    background-image: url('bg.jpg');
+    display: flex;
+    font-size: 20px;
+  }
+
+
+
+#Text{
+    background-color: rgb(48, 161, 4);
+    font-size: 20px;
+
+}
+
+#ord{
+    color: rgb(180, 24, 211);
+}
+
+#tecken{
+    color: rgb(189, 10, 212);
 }
