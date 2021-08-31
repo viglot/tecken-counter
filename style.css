@@ -9,14 +9,17 @@ body {
 
 #Text{
     background-color: rgb(48, 161, 4);
-    font-size: 20px;
+    font-size: 25px;
 
 }
 
 #ord{
     color: rgb(180, 24, 211);
+    font-size: 30px;
 }
 
 #tecken{
     color: rgb(189, 10, 212);
+    font-size: 30px;
 }
+
